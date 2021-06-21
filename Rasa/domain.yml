@@ -1,0 +1,40 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- demande_journée:
+    use_entities: true
+- negation:
+    use_entities: true
+- aurevoir:
+    use_entities: true
+- bonjour:
+    use_entities: true
+- demande_nom:
+    use_entities: true
+- demande_aide:
+    use_entities: true
+- affirmation:
+    use_entities: true
+- utter_aide:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_bonjour:
+  - text: Salut ! Tu vas bien ?
+  utter_aidequestion:
+  - text: Tu as besoin d'aide ?
+  utter_aide:
+  - text: je vais d'aider !
+  utter_aurevoir:
+  - text: Aurevoir, n'hésite pas si tu as besoin :)
+  utter_jesuisblue:
+  - text: Bonjour  !👋 Je suis Blue, votre assistant personnelle, conçu pour aider les personnes qui subissent des violences conjugales en France. Je suis disponible 24h/24, 7j/7. Tu peux me faire confiance, aucun message ne sera divulgé sans ton accord.
+actions:
+- affirmation
+forms: {}
+e2e_actions: []

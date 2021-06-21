@@ -1,0 +1,33 @@
+{"intents": [
+  {"tag": "bonjour",
+    "patterns": ["Salut", "Bonjour", "Yo", "Hi", "Hey", "Hello"],
+    "responses": ["Bonjour", "Salut comment vas tu ?", "Bonjour Comment allez vous ?"],
+    "context_set": ""
+  },
+  {"tag": "aurevoir",
+    "patterns": ["Aurevoir", "Merci pour votre aide aurevoir", "Bonne journée", "Aurevoir merci"],
+    "responses": ["N'hésiter pas à nous recontactez si vous avez la moindre question, bonne journée à vous :)", "Bon courage à vous, passer une bonne journée", "Aurevoir, merci de votre confiance"],
+    "context_set": ""
+  },
+  {"tag": "name",
+    "patterns": ["Qui etes-vous ?", "Comment tu t'appelle ?", "Peux-tu te présenter ?"],
+    "responses": ["Bonjour  !\nJe suis Blue, votre assistant personnelle, conçu pour aider les personnes qui subissent des violences conjugales en France.\nJe suis disponible 24h/24, 7j/7.\nTu peux me faire confiance, aucun message ne sera divulgé sans ton accord."],
+    "context_set": ""
+  },
+  {"tag": "aide",
+    "patterns": ["à l'aide", "au secours", "Pouvez-vous m'aidez ?", "J'ai besoin d'aide"],
+    "responses": ["voulez-vous de l'aide immédiate ?", "Quelle est la gravité de votre problème ?"],
+    "context_set": ""
+  },
+  {"tag": "urgence",
+    "patterns": ["urgent", "Immédiate", "J'ai besoin d'aide toute suite !", "maintenant j'ai besoin d'aide"],
+    "responses": ["Nous envoyons notre brigade vous aidez", "nous contactons les forces de l'ordre", "Nous contactons un de vos voisin pour venir à votre secours"],
+    "context_set": ""
+  },
+  {"tag": "conseil",
+    "patterns": ["J'ai besoin d'un conseil", "pouvez-vous me conseiller", "J'ai besoin de discuter", "besoin d'aide"],
+    "responses": ["Suivant votre situation nous vous conseillons, de prendre contact avec la FNSF, pour qu'il vous aide à changer de domicile.\nVous pouvez-appeler le 3919", "Nous vous conseillons vivement de vous installer chez vos amis ", "Suivant votre situation nous vous conseillons, de prendre contact avec la FNSF, pour qu'il vous aide à changer de domicile."],
+    "context_set": ""
+  }
+]
+}

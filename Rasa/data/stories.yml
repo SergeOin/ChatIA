@@ -1,0 +1,31 @@
+version: "2.0"
+stories:
+- story: Bonjour et Nom
+  steps:
+  - intent: bonjour
+  - action: utter_bonjour
+  - intent: demande_nom
+  - action: utter_jesuisblue
+
+- story: Bonjour et Nom et demande aide reponse negative
+  steps:
+    - intent: bonjour
+    - action: utter_bonjour
+    - intent: demande_nom
+    - action: utter_jesuisblue
+    - intent: utter_aide
+    - action: affirmation
+
+- story: Bonjour et Nom et demande aide reponse positive
+  steps:
+    - intent: bonjour
+    - action: utter_bonjour
+    - intent: demande_nom
+    - action: utter_jesuisblue
+    - intent: utter_aide
+    - action: affirmation
+
+- story: Demande aide
+  steps:
+    - intent: demande_aide
+    - action: utter_aide

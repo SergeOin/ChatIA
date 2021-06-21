@@ -1,0 +1,86 @@
+version: "2.0"
+nlu:
+- intent: bonjour
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - Bonjour
+    - Salut
+    - slt
+    - hola
+    - Yo
+    - Coucou
+    - salutation étranger
+    - Bienvenue
+    - Yope
+    - salut
+    - bonjour
+    - Wsh mon reuf !
+    - Wsh
+    - wsh ma coui
+- intent: aurevoir
+  examples: |
+    - Bonne journée
+    - aurevoir
+    - Merci aurevoir
+    - à plus tard
+    - Bonne nuit
+    - bye
+    - bye bye
+    - ciao
+    - à demain
+    - merci bien
+    - à la prochaine
+    - à bientot
+- intent: affirmation
+  examples: |
+    - yes
+    - oui
+    - en effet
+    - effectivemment
+    - Bien sur
+    - ui
+    - correct
+    - yep
+    - tout à fait
+    - je suis d'accord
+    - totalement
+    - absolument
+- intent: negation
+  examples: |
+    - no
+    - non
+    - jamais
+    - Je ne crois pas
+    - je n'aime pas
+    - pas ouf
+    - c'est nul
+    - pas vraiment
+    - nan
+- intent: demande_journée
+  examples: |
+    - Comment ça va ?
+    - Tu vas bien ?
+    - Tu as passé une bonne journée ?
+    - Comment va ?
+    - ça va
+    - ça va ?
+- intent: demande_nom
+  examples: |
+    - Tu t'appelle comment ?
+    - Tu es qui ?
+    - Quel est ton nom ?
+    - Qui es tu ?
+    - Peux tu te décrire ?
+    - comment tu t'appelle ?
+    - Comment tu t'appelle ?
+    - c'est quoi ton nom ?
+- intent: demande_aide
+  examples: |
+    - J'ai besoin d'aide !
+    - Tu peux m'aider ?
+    - à l'aide !
+    - aide moi
+    - à l'aide
